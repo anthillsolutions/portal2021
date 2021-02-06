@@ -11,7 +11,7 @@ import { LandingSimpleComponent } from './landing-simple/landing-simple.componen
     LandingSimpleComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     AppRoutingModule
   ],
   providers: [],
