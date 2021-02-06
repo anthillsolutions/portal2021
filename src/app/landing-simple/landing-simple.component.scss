@@ -1,0 +1,49 @@
+.landing {
+  padding: 1.6rem;
+  display: grid;
+  justify-items: center;
+  grid-template-rows: 1fr 1fr auto;
+  overflow: hidden;
+
+  .main {
+    align-self: end;
+    text-align: center;
+  }
+
+  .motto {
+    align-self: center;
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .landing {
+    padding: 3.2rem;
+
+    .main {
+      align-self: center;
+      justify-self: start;
+      width: 50rem;
+    }
+
+    .motto {
+      font-size: 2.4rem;
+      padding: 6.4rem;
+      background: rgba(#666666, 0.05);
+      width: 100%;
+    }
+  }
+}
+
+.subtitle {
+  font-weight: 200;
+  font-size: 2.4rem;
+
+  span {
+    font-weight: 800;
+  }
+}
+
+.logo {
+  width: 100%;
+}

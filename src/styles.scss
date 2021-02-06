@@ -1,1 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
+@use './assets/scss/as';
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600;700&display=swap');
+
+html {
+  font-size: 10px;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #666666;
+  height: 100vh;
+  width: 100vw;
+}
+
+.text-primary {
+  color: #006AB3;
+}
